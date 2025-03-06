@@ -2,6 +2,7 @@ import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, Image, TouchableOpacity} from 'react-native';
 import symbolOn from './assets/pictures/symbol-on.png';
 import symbolOff from './assets/pictures/symbol-off.png';
+import { useState } from 'react';
 
 export default function App() {
   const [isActive, setisActive] = useState(false)
